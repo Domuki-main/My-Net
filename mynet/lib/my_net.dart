@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mynet/routes.dart';
 
-//This class is the entrance of the application
+//This class is the application
 class MyNet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
