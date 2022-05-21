@@ -11,6 +11,7 @@ class FirstScreen extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             // Navigate to the second screen when tapped.
+            Navigator.of(context).pushNamed("/login");
           },
           child: const Text('Launch screen'),
         ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mynet/views/first_screen.dart';
+import 'package:mynet/views/login_page.dart';
 
 class Routes {
   static Route<dynamic> generateRoutes(RouteSettings settings) {
@@ -7,6 +8,10 @@ class Routes {
       case '/':
         return MaterialPageRoute(
           builder: (_) => FirstScreen(),
+        );
+      case '/login':
+        return MaterialPageRoute(
+          builder: (_) => LoginPage(),
         );
       // example route without arguments:
       // case '/login':
